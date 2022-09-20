@@ -1,4 +1,4 @@
-# rdatafile
+# cadi24h
 Simple minimalistic offline plotting of CADI datafiles
 
 This code is written for python >= 3.6 and require matplotlib and numpy.
