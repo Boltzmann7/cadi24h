@@ -45,7 +45,7 @@ for filename in glob.glob(sys.argv[1] + "/*.md2"):  # change file extention of C
     f.seek(0,0)      # go back to file beginning
 
     try:
-        # 1) read header information as described in the documentation p. 26-27
+        # 1) read header information as described in the documentation p. 26-27 <-- Hello, where is this documentation please?
         site = f.read(3).decode("utf-8")
         ascii_datetime = f.read(22).decode("utf-8")
         filetype = f.read(1).decode("utf-8")
